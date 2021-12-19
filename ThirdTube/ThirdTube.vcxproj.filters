@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;cc;s;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp</Extensions>
+    </Filter>
+    <Filter Include="Source Files\youtube_parser">
+      <UniqueIdentifier>{1db8c067-24c6-4feb-8c45-f4f275b1be49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\network">
+      <UniqueIdentifier>{d9f44f02-c6f7-4212-a0e2-1970463e33cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\youtube_parser">
+      <UniqueIdentifier>{80b747dc-9a78-499d-9d82-7e62eae52dbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\network">
+      <UniqueIdentifier>{10da7060-c7ff-4928-99ae-8ad2522765e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\json11">
+      <UniqueIdentifier>{171c271e-35c9-439f-9dc4-842f6cb572df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\json11">
+      <UniqueIdentifier>{412b66c5-07bc-4fbb-ad7b-72ab327de461}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\youtube_parser\cache.cpp">
+      <Filter>Source Files\youtube_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="source\youtube_parser\channel_parser.cpp">
+      <Filter>Source Files\youtube_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="source\youtube_parser\cipher.cpp">
+      <Filter>Source Files\youtube_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="source\youtube_parser\internal_common.cpp">
+      <Filter>Source Files\youtube_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="source\youtube_parser\n_param.cpp">
+      <Filter>Source Files\youtube_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="source\youtube_parser\search_parser.cpp">
+      <Filter>Source Files\youtube_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="source\network\network_io.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="library\json11\json11.cpp">
+      <Filter>Source Files\json11</Filter>
+    </ClCompile>
+    <ClCompile Include="source\youtube_parser\stream_parser.cpp">
+      <Filter>Source Files\youtube_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="source\youtube_parser\parser_portable.cpp">
+      <Filter>Source Files\youtube_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="module.c">
+      <Filter>Source Files\youtube_parser</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\youtube_parser\cache.hpp">
+      <Filter>Header Files\youtube_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="source\youtube_parser\cipher.hpp">
+      <Filter>Header Files\youtube_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="source\youtube_parser\internal_common.hpp">
+      <Filter>Header Files\youtube_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="source\youtube_parser\n_param.hpp">
+      <Filter>Header Files\youtube_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="source\youtube_parser\parser.hpp">
+      <Filter>Header Files\youtube_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="include\network\network_decoder.hpp">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="include\network\network_decoder_multiple.hpp">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="include\network\network_downloader.hpp">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="include\network\network_io.hpp">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="include\network\thumbnail_loader.hpp">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="library\json11\json11.hpp">
+      <Filter>Header Files\json11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\definitions.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\headers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\types.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\variables.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,8 +1,8 @@
 # ThirdTube
 
 A work-in-progress homebrew YouTube client for the new 3DS  
-[GBAtemp Thread](https://gbatemp.net/threads/release-thirdtube-a-homebrew-youtube-client-for-the-new-3ds.591696/)  
-[Discord Server](https://discord.gg/CVcThBCQJM)
+[GBAtemp Thread](https://gbatemp.net/threads/release-thirdtube-a-homebrew-youtube-client-for-the-new-3ds.591696/)
+[Discord Server](https://discord.com/invite/zwtxTxPP)
 
 ## Instability Warning
 
@@ -65,8 +65,6 @@ by the FFmpeg developers under GNU Lesser General Public License (LGPL) version 
 The source code can be found in library/FFmpeg/FFmpeg.  
 ### [json11](https://github.com/dropbox/json11)
 by Dropbox under MIT License  
-### [Duktape](https://duktape.org/)
-by Duktape authors under MIT License  
 ### [libctru](https://github.com/devkitPro/libctru)
 by devkitPro under zlib License  
 ### [libcurl](https://curl.se/)
